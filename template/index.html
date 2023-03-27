@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paywall Bypass</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="container">
+		<h1>Paywall Bypass</h1>
+		<p>Enter a URL to bypass the paywall:</p>
+        <form action="/link" method="POST">
+            <input
+              title="Link of the website"
+              type="text"
+              name="link"
+              placeholder="https://example.com"
+              required>
+            <input type="submit" name="submit" value="Bypass" />
+          </form>          
+	</div>
+</body>
+</html>
