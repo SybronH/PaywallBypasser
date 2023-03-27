@@ -22,5 +22,8 @@ This is a simple Flask web application that allows you to bypass paywalls for ne
  1. Enter the URL of the article you want to read in the input box and click "Submit".
  2. If the URL is valid and the paywall is bypassed successfully, the article content will be displayed on the page.
  3. If the URL is invalid or the paywall cannot be bypassed, an error message will be displayed.
+ 
+Included in the static and template folder is a basic index.html with an okayish form.
+You're free to use it or change it if you like.
 
 That's it.
